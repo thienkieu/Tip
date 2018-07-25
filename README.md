@@ -15,5 +15,11 @@ Note all tips
 
 ## Customize controll
 	1. Must support a11y.
+
+## Pagining
+	1. How to know what item will be inclued in next page, may be item in before page will be included because there are some item add by user.
+		=> we can use time post to sort
+	2. Data is returned to fontend should able to view, because fontend can't effect by business such each add more filter.
+	and there is bug infiniti scroll, in case check number case to display.
 	
 	
