@@ -21,5 +21,8 @@ Note all tips
 		=> we can use time post to sort
 	2. Data is returned to fontend should able to view, because fontend can't effect by business such each add more filter.
 	and there is bug infiniti scroll, in case check number case to display.
-	
+
+## SEO
+	1. How to implement it with single page
+	2. 
 	
