@@ -24,5 +24,13 @@ Note all tips
 
 ## SEO
 	1. How to implement it with single page
-	2. 
+	2. Robot.txt
+	3. Sitemap.xml
+
+## Design System
+	1. Do not use business to design db such as not use ID of employee to Primary key for employee table => employeeID can change (resign, moving) but reference of employee not change.
+	2. System can be lock when log => should not allow this we can use event to publish event to other there process 
+	3. Consider to use read and write database to avoid lock system when write and increate reading base on cache.
+
 	
+
