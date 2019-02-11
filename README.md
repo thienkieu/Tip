@@ -32,5 +32,11 @@ Note all tips
 	2. System can be lock when log => should not allow this we can use event to publish event to other there process 
 	3. Consider to use read and write database to avoid lock system when write and increate reading base on cache.
 
+## Encrypt user data
+	1. Problems  => how to emcrypt 
+
 	
+# Business question:
+ 1.Add scheduler at day, Please note that can run on holiday or not working date.
+ 
 
