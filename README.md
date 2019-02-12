@@ -38,5 +38,11 @@ Note all tips
 	
 # Business question:
  1.Add scheduler at day, Please note that can run on holiday or not working date.
+
+ 
+# Maintaince: 
+ 1. Define task must do to system run such as system need holiday to work, we need update it manulay.
+	Ex: we must extend verify PTO day if it at holidy or dateoff.
+
  
 
