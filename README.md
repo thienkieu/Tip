@@ -26,6 +26,7 @@ Note all tips
 	1. How to implement it with single page
 	2. Robot.txt
 	3. Sitemap.xml
+	4. CSS and Javascript will effect to page speed, so consider size of them and used percent. Should remove code note use in current page.
 
 ## Design System
 	1. Do not use business to design db such as not use ID of employee to Primary key for employee table => employeeID can change (resign, moving) but reference of employee not change.
@@ -37,12 +38,15 @@ Note all tips
 
 	
 # Business question:
- 1.Add scheduler at day, Please note that can run on holiday or not working date.
-
+ 1. Add limit business by on date, Please note that can run on holiday or not working date.
+ 2. Do not add host name into data to store. In feature we can change host or support mulitiple host.
  
 # Maintaince: 
  1. Define task must do to system run such as system need holiday to work, we need update it manulay.
 	Ex: we must extend verify PTO day if it at holidy or dateoff.
 
  
+# Reactjs: 
+	1. Destructure not destruct of object that ref by property, so change prop of that object not trigger re-render for children component.
+
 
