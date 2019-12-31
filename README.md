@@ -49,4 +49,6 @@ Note all tips
 # Reactjs: 
 	1. Destructure not destruct of object that ref by property, so change prop of that object not trigger re-render for children component.
 
-
+# PHP:
+1. cannot call curl with https
+      curl_setopt($ch,CURLOPT_SSL_VERIFYPEER, false);
