@@ -49,6 +49,7 @@ Note all tips
  
 # Reactjs: 
 	1. Destructure not destruct of object that ref by property, so change prop of that object not trigger re-render for children component.
+	2. Change key of component, that force component will destroy and render new element, (Next user, this case we want re-render all children element with new props)
 
 # PHP:
 1. cannot call curl with https
